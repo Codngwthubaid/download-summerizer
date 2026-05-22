@@ -1,0 +1,18 @@
+{
+  "name": "downloads-organizer",
+  "version": "1.0.0",
+  "description": "Automatic Downloads folder organizer that runs weekly",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "schedule": "node main.js --schedule",
+    "watch": "node main.js --watch"
+  },
+  "keywords": ["automation", "file-organizer", "downloads"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-cron": "^3.0.3"
+  }
+}
